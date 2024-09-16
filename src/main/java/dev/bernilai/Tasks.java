@@ -2,7 +2,7 @@ package dev.bernilai;
 
 import dev.bernilai.types.TrainingIntensity;
 
-public class Gallons {
+public class Tasks {
 
     public static void main(String[] args) {
 
