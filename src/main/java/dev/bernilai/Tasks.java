@@ -8,7 +8,7 @@ public class Tasks {
 
         System.out.println("N1: " + GallonsToLiters(5) + " liters");
         System.out.println("N2: " + fitCalc(15, TrainingIntensity.HIGH) + " calories");
-        System.out.println("N3: " + containers(10, 3, 11) + " products");
+        System.out.println("N3: " + containers(5, 2, 1) + " products");
         System.out.println("N4: " + triangleType(15, 10, 15));
         System.out.println("N5: " + ternaryEvaluation(20, 17));
         System.out.println("N6: " + howManyItems(25, 1.3, 2.2) + " items");
@@ -43,7 +43,7 @@ public class Tasks {
         final int bagCapacity = bagsAmount * 50;
         final int barrelCapacity = barrelsAmount * 100;
 
-        return boxCapacity * boxesAmount + bagCapacity * bagsAmount + barrelCapacity * barrelsAmount;
+        return boxCapacity + bagCapacity + barrelCapacity;
     }
 
     // 4
