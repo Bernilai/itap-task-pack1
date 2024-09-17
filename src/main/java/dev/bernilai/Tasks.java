@@ -20,15 +20,17 @@ public class Tasks {
     }
 
     // 1
-    public static double GallonsToLiters(double gallons) {
+    public static double GallonsToLiters (double gallons) {
+
         return gallons * 3.785;
     }
 
     // 2
-    public static int fitCalc(
+    public static int fitCalc (
             int time,
             TrainingIntensity intensity
     ) {
+
         return time * intensity.getValue();
     }
 
