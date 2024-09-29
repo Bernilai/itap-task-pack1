@@ -1,13 +1,13 @@
 package dev.bernilai;
 
-import dev.bernilai.types.TrainingIntensity;
+//import dev.bernilai.types.TrainingIntensity;
 
-public class Tasks {
+public class Tasks1 {
 
     public static void main(String[] args) {
 
         System.out.println("N1: " + GallonsToLiters(5) + " liters");
-        System.out.println("N2: " + fitCalc(15, TrainingIntensity.HIGH) + " calories");
+        System.out.println("N2: " + fitCalc(41, 3) + " calories");
         System.out.println("N3: " + containers(5, 2, 1) + " products");
         System.out.println("N4: " + triangleType(15, 10, 15));
         System.out.println("N5: " + ternaryEvaluation(20, 17));
@@ -28,10 +28,10 @@ public class Tasks {
     // 2
     public static int fitCalc (
             int time,
-            TrainingIntensity intensity
+            int intensity
     ) {
 
-        return time * intensity.getValue();
+        return time * intensity;
     }
 
     // 3
