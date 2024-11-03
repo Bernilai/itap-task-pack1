@@ -23,7 +23,7 @@ public class Tasks3 {
         System.out.println("Prices of discounted products: " + sale(products, 25));
         System.out.println("Is strange pair?: " + isStrangePair("sparkling", "groups"));
         System.out.println("Successful shot?: " + successfulShot(0, 0, 5, 2, 2));
-        System.out.println("Parity analisys: " + parityAnalisys(243));
+        System.out.println("Parity analysis: " + parityAnalysis(243));
         System.out.println("RPS: " + rps("scissors", "rock"));
         System.out.println("Bugger: " + bugger(999));
         System.out.println("The most expensive product: " + mostExpensive(inventory));
@@ -71,7 +71,7 @@ public class Tasks3 {
     }
 
     //4
-    public static boolean parityAnalisys (int n) {
+    public static boolean parityAnalysis(int n) {
 
         int sum = 0;
         int temp = n;
